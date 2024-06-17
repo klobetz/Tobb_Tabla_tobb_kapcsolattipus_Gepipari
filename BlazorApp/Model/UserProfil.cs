@@ -2,9 +2,9 @@
 
 namespace BlazorApp.Model
 {
-    public class UserSetting
+    public class UserProfil
     {
-        public int UserSettingId { get; set; }
+        public int UserProfilId { get; set; }
 
         [MaxLength(20)]
         public string? Theme { get; set; }

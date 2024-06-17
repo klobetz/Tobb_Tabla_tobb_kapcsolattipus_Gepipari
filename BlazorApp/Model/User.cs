@@ -16,7 +16,7 @@ namespace BlazorApp.Model
 
         //a kapcsolatok kialakítása
         //egy-egy kapcsolat kialakítása a UserSetting osztállyal
-        public virtual UserSetting? UserSetting { get; set; }
+        public virtual UserProfil? UserProfil { get; set; }
 
         //egy a többhöz kapcsolat kialakítása a post osztály felé:
         public virtual ICollection<Post> Posts { get; set; } = new List<Post>();
